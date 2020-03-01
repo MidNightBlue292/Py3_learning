@@ -29,7 +29,7 @@ def initMixer():
 
 try:
     initMixer()
-    file = 'exer021.mp3'
+    file = 'exer_021.mp3'
     pmusic(file)
 except KeyboardInterrupt:  # to stop playing, press "ctrl-c"
     stopmusic()
